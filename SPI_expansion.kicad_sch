@@ -637,130 +637,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1136,7 +1012,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 35.56) (xy 138.43 35.56)
+			(xy 134.62 35.56) (xy 149.86 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1173,26 +1049,6 @@
 			(type default)
 		)
 		(uuid "15b09e67-f4b1-497a-8d1c-a78c4f03f2ed")
-	)
-	(wire
-		(pts
-			(xy 147.32 60.96) (xy 151.13 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2362efe4-93c3-46df-924e-a1473a292365")
-	)
-	(wire
-		(pts
-			(xy 147.32 68.58) (xy 151.13 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "250e32c5-5af3-4947-905c-eba093d914bd")
 	)
 	(wire
 		(pts
@@ -1266,16 +1122,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 38.1) (xy 149.86 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5423b4fa-4355-475d-930f-9fbe3469992c")
-	)
-	(wire
-		(pts
 			(xy 149.86 135.89) (xy 151.13 135.89)
 		)
 		(stroke
@@ -1283,16 +1129,6 @@
 			(type default)
 		)
 		(uuid "581b95d3-d85a-4427-a283-7f25b7f184eb")
-	)
-	(wire
-		(pts
-			(xy 146.05 35.56) (xy 149.86 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "585a24ff-e4f4-42eb-9c5d-79dc2a66a0e8")
 	)
 	(wire
 		(pts
@@ -1346,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 60.96) (xy 139.7 60.96)
+			(xy 135.89 60.96) (xy 151.13 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +1212,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 68.58) (xy 139.7 68.58)
+			(xy 135.89 68.58) (xy 151.13 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1393,16 +1229,6 @@
 			(type default)
 		)
 		(uuid "98314906-2d94-4040-a2dd-8b301359ab11")
-	)
-	(wire
-		(pts
-			(xy 147.32 63.5) (xy 151.13 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99ed9004-483d-4900-a89e-4c2bdcd09c9a")
 	)
 	(wire
 		(pts
@@ -1426,16 +1252,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 30.48) (xy 149.86 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a5461e-5603-4451-a4e8-dfdb5d026a8c")
-	)
-	(wire
-		(pts
 			(xy 162.56 35.56) (xy 162.56 38.1)
 		)
 		(stroke
@@ -1456,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 38.1) (xy 138.43 38.1)
+			(xy 134.62 38.1) (xy 149.86 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1473,16 +1289,6 @@
 			(type default)
 		)
 		(uuid "ba7f0a01-13c4-4b7c-bb73-c6bbf31b968c")
-	)
-	(wire
-		(pts
-			(xy 147.32 66.04) (xy 151.13 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e38c75-aad8-4bcd-8e83-6b66ec448a4a")
 	)
 	(wire
 		(pts
@@ -1506,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 30.48) (xy 138.43 30.48)
+			(xy 134.62 30.48) (xy 149.86 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 63.5) (xy 139.7 63.5)
+			(xy 135.89 63.5) (xy 151.13 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1526,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 66.04) (xy 139.7 66.04)
+			(xy 135.89 66.04) (xy 151.13 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1546,17 +1352,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 33.02) (xy 149.86 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f912020e-cec4-4da5-8edf-d4f823af3761")
-	)
-	(wire
-		(pts
-			(xy 134.62 33.02) (xy 138.43 33.02)
+			(xy 134.62 33.02) (xy 149.86 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1851,341 +1647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 143.51 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "130732be-a897-403f-80bf-48da5e4104b3")
-		(property "Reference" "R11"
-			(at 143.51 58.928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 143.51 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6afa6dc-f5e7-4702-af6a-c334297f9dca")
-		)
-		(pin "1"
-			(uuid "c5aa4709-d11d-4877-b15a-e339279ef019")
-		)
-		(instances
-			(project "OhWare"
-				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f/f251d033-7c4f-4f74-b0e8-105a8a585980"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 30.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18f3e212-a997-4c18-9734-54fb44db67ec")
-		(property "Reference" "R10"
-			(at 142.24 28.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 142.24 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "33b50d90-c8eb-42d7-af26-5cb2368e6c8a")
-		)
-		(pin "1"
-			(uuid "7efe4700-6429-4ded-afbb-ec26b095e7c2")
-		)
-		(instances
-			(project ""
-				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f/f251d033-7c4f-4f74-b0e8-105a8a585980"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "227da6f2-2804-4777-9fe5-1d3fb74f4917")
-		(property "Reference" "R13"
-			(at 143.51 64.008 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 143.51 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9707d992-91b0-4e42-ba78-b0ea204b3ec5")
-		)
-		(pin "1"
-			(uuid "16257b86-528b-43f8-9e5b-4cb7b85e7b20")
-		)
-		(instances
-			(project "OhWare"
-				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f/f251d033-7c4f-4f74-b0e8-105a8a585980"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "233f0da8-baef-4750-991a-949d41dadef7")
-		(property "Reference" "R6"
-			(at 142.24 33.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 142.24 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 37.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7c48031-f0c8-4951-b41e-298996be7e30")
-		)
-		(pin "1"
-			(uuid "6fa03fbe-d720-45c1-8ffe-2794ae91940e")
-		)
-		(instances
-			(project "OhWare"
-				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f/f251d033-7c4f-4f74-b0e8-105a8a585980"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38626b7e-71e4-40a0-b903-e3bf6b6ce4cb")
-		(property "Reference" "R12"
-			(at 143.51 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 143.51 65.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "114e0799-0a4d-45c3-8e53-c32df6f9cf62")
-		)
-		(pin "1"
-			(uuid "9d51d4ae-8ab5-472e-91e1-db90218163b4")
-		)
-		(instances
-			(project "OhWare"
-				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f/f251d033-7c4f-4f74-b0e8-105a8a585980"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 156.21 135.89 0)
 		(unit 1)
@@ -2266,73 +1727,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 143.51 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7783b25c-7da7-454b-ad5e-b1a47b66baab")
-		(property "Reference" "R29"
-			(at 143.51 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 143.51 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 143.51 70.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1b2943a5-bc1b-4842-8bd8-f6e5e4849477")
-		)
-		(pin "1"
-			(uuid "72a91db4-761e-4137-94b8-2e7102ec5d0a")
-		)
-		(instances
-			(project "OhWare"
-				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f/f251d033-7c4f-4f74-b0e8-105a8a585980"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 156.21 111.76 0)
 		(unit 1)
@@ -2407,140 +1801,6 @@
 			(project "OhWare"
 				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f/f251d033-7c4f-4f74-b0e8-105a8a585980"
 					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2fcbd2b-f905-439c-9f85-c8003731fb9e")
-		(property "Reference" "R7"
-			(at 142.24 36.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 142.24 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8783ec1d-6d33-438b-a840-fd2b9e2eae53")
-		)
-		(pin "1"
-			(uuid "1bf51046-d65d-4a39-af0a-22e01d82e223")
-		)
-		(instances
-			(project "OhWare"
-				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f/f251d033-7c4f-4f74-b0e8-105a8a585980"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf475176-397d-4fe1-8d1f-baf3d8b835e7")
-		(property "Reference" "R5"
-			(at 142.24 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 142.24 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 142.24 34.798 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e92dac6-4ad8-4218-acb8-dc3592559eec")
-		)
-		(pin "1"
-			(uuid "740c12be-95d7-48d1-bd90-14eda3604be3")
-		)
-		(instances
-			(project "OhWare"
-				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f/f251d033-7c4f-4f74-b0e8-105a8a585980"
-					(reference "R5")
 					(unit 1)
 				)
 			)
