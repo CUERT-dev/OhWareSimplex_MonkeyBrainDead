@@ -7634,7 +7634,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Hanrun_HR911105A_Horizontal"
+		(property "Footprint" "EasyEDA:RJ45_Hanrun_HR911105A_Horizontal"
 			(at 203.2 33.02 0)
 			(effects
 				(font

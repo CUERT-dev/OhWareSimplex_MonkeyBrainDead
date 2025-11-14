@@ -624,6 +624,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 134.62) (xy 222.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b72674-7ea3-49f7-b6e2-b247d618a1a1")
+	)
+	(wire
+		(pts
 			(xy 214.63 105.41) (xy 222.25 105.41)
 		)
 		(stroke
@@ -644,7 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 138.43) (xy 199.39 140.97)
+			(xy 193.04 138.43) (xy 193.04 140.97)
 		)
 		(stroke
 			(width 0)
@@ -654,7 +664,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 138.43) (xy 182.88 140.97)
+			(xy 176.53 138.43) (xy 176.53 140.97)
 		)
 		(stroke
 			(width 0)
@@ -704,7 +714,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 138.43) (xy 175.26 140.97)
+			(xy 168.91 138.43) (xy 168.91 140.97)
 		)
 		(stroke
 			(width 0)
@@ -714,7 +724,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 138.43) (xy 172.72 140.97)
+			(xy 166.37 138.43) (xy 166.37 140.97)
 		)
 		(stroke
 			(width 0)
@@ -744,7 +754,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 138.43) (xy 190.5 140.97)
+			(xy 184.15 138.43) (xy 184.15 140.97)
 		)
 		(stroke
 			(width 0)
@@ -754,7 +764,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 138.43) (xy 201.93 140.97)
+			(xy 195.58 138.43) (xy 195.58 140.97)
 		)
 		(stroke
 			(width 0)
@@ -764,7 +774,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 138.43) (xy 163.83 140.97)
+			(xy 157.48 138.43) (xy 157.48 140.97)
 		)
 		(stroke
 			(width 0)
@@ -834,7 +844,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 138.43) (xy 180.34 140.97)
+			(xy 173.99 138.43) (xy 173.99 140.97)
 		)
 		(stroke
 			(width 0)
@@ -924,7 +934,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 138.43) (xy 187.96 140.97)
+			(xy 181.61 138.43) (xy 181.61 140.97)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +954,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 138.43) (xy 193.04 140.97)
+			(xy 186.69 138.43) (xy 186.69 140.97)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +984,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 138.43) (xy 166.37 140.97)
+			(xy 160.02 138.43) (xy 160.02 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1148,17 +1158,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 40.64 69.85 0)
-		(mirror y)
+		(at 40.64 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "96dac4b7-4850-4f3a-babf-331a0900df0b")
 		(property "Reference" "J1"
-			(at 38.1 68.5799 0)
+			(at 38.1 71.1201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1175,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 38.1 71.1199 0)
+			(at 38.1 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,13 +1602,12 @@
 		)
 	)
 	(sheet
-		(at 151.13 55.88)
-		(size 63.5 82.55)
+		(at 133.35 55.88)
+		(size 81.28 82.55)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1610,7 +1617,7 @@
 		)
 		(uuid "3373f7d9-a1d2-42db-a119-cf0259ab0da6")
 		(property "Sheetname" "Controller"
-			(at 151.13 55.1684 0)
+			(at 133.35 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +1626,7 @@
 			)
 		)
 		(property "Sheetfile" "Controller.kicad_sch"
-			(at 151.13 139.0146 0)
+			(at 133.35 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1855,7 @@
 			)
 		)
 		(pin "SPI1_MISO" input
-			(at 190.5 138.43 270)
+			(at 184.15 138.43 270)
 			(uuid "d3ca4176-22a9-44b0-a6f9-0c19417a3ef8")
 			(effects
 				(font
@@ -1858,7 +1865,7 @@
 			)
 		)
 		(pin "SPI1_MOSI" input
-			(at 187.96 138.43 270)
+			(at 181.61 138.43 270)
 			(uuid "ec5ffd4a-7f4e-4e3f-b6db-37eb58612841")
 			(effects
 				(font
@@ -1868,7 +1875,7 @@
 			)
 		)
 		(pin "SPI1_SCK" input
-			(at 193.04 138.43 270)
+			(at 186.69 138.43 270)
 			(uuid "8a5b7b21-b4c3-4700-b8b8-6751098707ff")
 			(effects
 				(font
@@ -1878,7 +1885,7 @@
 			)
 		)
 		(pin "UART3_Rx" input
-			(at 175.26 138.43 270)
+			(at 168.91 138.43 270)
 			(uuid "a5e7350c-d835-48ac-97eb-d264abe7efdd")
 			(effects
 				(font
@@ -1888,7 +1895,7 @@
 			)
 		)
 		(pin "UART3_Tx" input
-			(at 172.72 138.43 270)
+			(at 166.37 138.43 270)
 			(uuid "19001945-93ce-42ba-8be9-b60b363ec418")
 			(effects
 				(font
@@ -1898,7 +1905,7 @@
 			)
 		)
 		(pin "UART6_Rx" input
-			(at 182.88 138.43 270)
+			(at 176.53 138.43 270)
 			(uuid "91dd601f-d16f-4240-b52a-b1cf163b955f")
 			(effects
 				(font
@@ -1908,7 +1915,7 @@
 			)
 		)
 		(pin "UART6_Tx" input
-			(at 180.34 138.43 270)
+			(at 173.99 138.43 270)
 			(uuid "095e7224-00c0-45ea-912a-d960d11c6c2e")
 			(effects
 				(font
@@ -1918,7 +1925,7 @@
 			)
 		)
 		(pin "I2C1_SCL" input
-			(at 163.83 138.43 270)
+			(at 157.48 138.43 270)
 			(uuid "e9678049-eb11-4f55-9beb-0603ba526f29")
 			(effects
 				(font
@@ -1928,7 +1935,7 @@
 			)
 		)
 		(pin "I2C1_SDA" input
-			(at 166.37 138.43 270)
+			(at 160.02 138.43 270)
 			(uuid "90085f4a-8f55-4fff-a6cf-43176b5acd7b")
 			(effects
 				(font
@@ -1938,7 +1945,7 @@
 			)
 		)
 		(pin "SPI1_CS1" input
-			(at 199.39 138.43 270)
+			(at 193.04 138.43 270)
 			(uuid "c85bef9d-04ba-4246-b28f-d179a4dad67f")
 			(effects
 				(font
@@ -1948,13 +1955,23 @@
 			)
 		)
 		(pin "SPI1_CS2" input
-			(at 201.93 138.43 270)
+			(at 195.58 138.43 270)
 			(uuid "f84c7e8e-76af-4150-bdf1-afb7f47fa4aa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RS485 nRE{slash}DE" input
+			(at 214.63 134.62 0)
+			(uuid "eaa94803-793e-4e45-b360-9a60d165e137")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1966,7 +1983,7 @@
 		)
 	)
 	(sheet
-		(at 120.65 55.88)
+		(at 104.14 55.88)
 		(size 20.32 82.55)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1981,7 +1998,7 @@
 		)
 		(uuid "49be7343-6876-4872-8ca7-768fcc55fbeb")
 		(property "Sheetname" "AuxIO"
-			(at 121.412 58.166 0)
+			(at 104.902 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +2007,7 @@
 			)
 		)
 		(property "Sheetfile" "AuxIO.kicad_sch"
-			(at 120.142 65.024 0)
+			(at 103.632 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2129,7 @@
 	)
 	(sheet
 		(at 222.25 127)
-		(size 12.7 7.62)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2136,7 +2153,7 @@
 			)
 		)
 		(property "Sheetfile" "RS485.kicad_sch"
-			(at 222.25 135.2046 0)
+			(at 222.25 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,6 +2181,16 @@
 				(justify left)
 			)
 		)
+		(pin "nRE{slash}DE" input
+			(at 222.25 134.62 180)
+			(uuid "5cfc7943-e638-4649-962b-c250ea8697bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "OhWare"
 				(path "/38f33acd-ac87-4918-9c1f-d78977d10c9f"
@@ -2173,7 +2200,7 @@
 		)
 	)
 	(sheet
-		(at 160.02 140.97)
+		(at 153.67 140.97)
 		(size 44.45 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2188,7 +2215,7 @@
 		)
 		(uuid "f251d033-7c4f-4f74-b0e8-105a8a585980")
 		(property "Sheetname" "SPI_I2C_UART_expansion"
-			(at 168.91 163.068 0)
+			(at 162.56 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +2224,7 @@
 			)
 		)
 		(property "Sheetfile" "SPI_expansion.kicad_sch"
-			(at 160.02 165.6846 0)
+			(at 153.67 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2233,7 @@
 			)
 		)
 		(pin "SPI1_CLK" input
-			(at 193.04 140.97 90)
+			(at 186.69 140.97 90)
 			(uuid "9058f740-ffe3-4afb-bd12-dc84223f59f1")
 			(effects
 				(font
@@ -2216,7 +2243,7 @@
 			)
 		)
 		(pin "SPI1_CS1" input
-			(at 199.39 140.97 90)
+			(at 193.04 140.97 90)
 			(uuid "c273b40d-9f30-4164-bcd4-5002d6759c9c")
 			(effects
 				(font
@@ -2226,7 +2253,7 @@
 			)
 		)
 		(pin "SPI1_CS2" input
-			(at 201.93 140.97 90)
+			(at 195.58 140.97 90)
 			(uuid "16ec580a-1e48-4ef3-97dd-a57a02456dba")
 			(effects
 				(font
@@ -2236,7 +2263,7 @@
 			)
 		)
 		(pin "SPI1_MISO" input
-			(at 190.5 140.97 90)
+			(at 184.15 140.97 90)
 			(uuid "ae1e2ac9-6806-48a4-b28f-b9f2a4a29467")
 			(effects
 				(font
@@ -2246,7 +2273,7 @@
 			)
 		)
 		(pin "SPI1_MOSI" input
-			(at 187.96 140.97 90)
+			(at 181.61 140.97 90)
 			(uuid "3fb56abb-fd05-4d9f-aeff-c6e73258507d")
 			(effects
 				(font
@@ -2256,7 +2283,7 @@
 			)
 		)
 		(pin "UART3_Rx" input
-			(at 175.26 140.97 90)
+			(at 168.91 140.97 90)
 			(uuid "30e0e4e9-8d2a-430b-84ab-30aae3cbaad5")
 			(effects
 				(font
@@ -2266,7 +2293,7 @@
 			)
 		)
 		(pin "UART3_Tx" input
-			(at 172.72 140.97 90)
+			(at 166.37 140.97 90)
 			(uuid "f7c4ae1f-7911-4484-b67e-84a87b11f103")
 			(effects
 				(font
@@ -2276,7 +2303,7 @@
 			)
 		)
 		(pin "UART6_Rx" input
-			(at 182.88 140.97 90)
+			(at 176.53 140.97 90)
 			(uuid "c55c65e0-9501-4125-90b2-4e965a88f516")
 			(effects
 				(font
@@ -2286,7 +2313,7 @@
 			)
 		)
 		(pin "UART6_Tx" input
-			(at 180.34 140.97 90)
+			(at 173.99 140.97 90)
 			(uuid "0bdad8a3-520a-435c-86d2-5b3013243cb6")
 			(effects
 				(font
@@ -2296,7 +2323,7 @@
 			)
 		)
 		(pin "I2C1_SCL" input
-			(at 163.83 140.97 90)
+			(at 157.48 140.97 90)
 			(uuid "40dd077b-d1fe-4d6c-a835-9a8a5ad03c30")
 			(effects
 				(font
@@ -2306,7 +2333,7 @@
 			)
 		)
 		(pin "I2C1_SDA" input
-			(at 166.37 140.97 90)
+			(at 160.02 140.97 90)
 			(uuid "0d2c93ad-69c0-45a1-891f-c3455d83bf39")
 			(effects
 				(font
