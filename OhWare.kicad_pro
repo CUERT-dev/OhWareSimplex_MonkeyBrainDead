@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.12,
+        "min_clearance": 0.35,
         "min_connection": 0.12,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -136,7 +136,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1,
+        "min_track_width": 0.35,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
@@ -232,6 +232,10 @@
         {
           "diameter": 1.0,
           "drill": 0.6
+        },
+        {
+          "diameter": 1.2,
+          "drill": 0.7
         }
       ],
       "zones_allow_external_fillets": false
@@ -473,7 +477,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "libMain"
+    ]
   },
   "meta": {
     "filename": "OhWare.kicad_pro",
@@ -644,10 +650,6 @@
       "Controller"
     ],
     [
-      "1b2d3628-7dd5-4965-8835-e6d8bef60db4",
-      "Ethernet"
-    ],
-    [
       "1b0ef705-9879-4141-ae37-7f2caae893a3",
       "CAN"
     ],
@@ -664,16 +666,12 @@
       "PowerConverter"
     ],
     [
+      "bcc8ba8d-9866-4a24-8637-cc5efaac251c",
+      "Esp32"
+    ],
+    [
       "eaedeb33-b3bd-4866-a006-654b07613880",
       "RS485"
-    ],
-    [
-      "89bfa8b8-f922-4671-b743-8eba341d6056",
-      "USB_FS"
-    ],
-    [
-      "0e5f081e-af56-482e-974e-1e5b0de8fc4d",
-      "SD_Card"
     ]
   ],
   "text_variables": {}
