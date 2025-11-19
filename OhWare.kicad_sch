@@ -978,7 +978,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 40.64 69.85 180)
+		(at 40.64 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -986,7 +987,7 @@
 		(dnp no)
 		(uuid "96dac4b7-4850-4f3a-babf-331a0900df0b")
 		(property "Reference" "J1"
-			(at 38.1 71.1201 0)
+			(at 38.1 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +996,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 38.1 68.5801 0)
+			(at 38.1 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,8 +1463,8 @@
 		)
 	)
 	(sheet
-		(at 222.25 72.39)
-		(size 19.05 21.59)
+		(at 222.25 73.66)
+		(size 19.05 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1478,7 +1479,7 @@
 		)
 		(uuid "bcc8ba8d-9866-4a24-8637-cc5efaac251c")
 		(property "Sheetname" "Esp32"
-			(at 222.25 71.6784 0)
+			(at 222.25 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,12 +1488,62 @@
 			)
 		)
 		(property "Sheetfile" "Esp32.kicad_sch"
-			(at 222.25 94.5646 0)
+			(at 222.25 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 222.25 77.47 180)
+			(uuid "04841b44-59cc-461f-b606-859f8fc3f688")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_CLK" input
+			(at 222.25 80.01 180)
+			(uuid "0d505f58-7a1d-4b4f-99c0-28e9514bb3d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_CS" input
+			(at 222.25 82.55 180)
+			(uuid "610e413d-4283-45b3-8180-1f7b5b826ecc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 222.25 85.09 180)
+			(uuid "276c502a-17ae-4dec-b6d0-312c67e5f62f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 222.25 87.63 180)
+			(uuid "90aa832a-06b2-4ba8-a309-dccf819a8dca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
