@@ -1952,7 +1952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 77.1652 85.09 0)
 			(effects
 				(font
@@ -2220,13 +2220,12 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 213.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -2271,6 +2270,7 @@
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
 		(at 167.64 73.66 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2278,7 +2278,7 @@
 		(dnp no)
 		(uuid "c8f37aa5-8d55-4864-9d4b-373866e7c937")
 		(property "Reference" "SW2"
-			(at 171.45 72.3899 90)
+			(at 171.45 74.9301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2287,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 171.45 74.9299 90)
+			(at 171.45 72.3901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 140.462 78.74 90)
 			(effects
 				(font
